@@ -79,7 +79,7 @@ function getCoingecko() {
       }
 
       // Check to see if the data has returned a value. Run the setBot function and pass through the price.
-      if (!isNaN(price) && price != '') {
+      if (!isNaN(price) && price != null) {
         setBot(price)
       }
 
