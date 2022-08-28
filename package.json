@@ -1,0 +1,32 @@
+{
+  "name": "free-coingecko-discord-bot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xKRN/Discord-Crypto-Ticker-Bot.git"
+  },
+  "keywords": [
+    "crypto",
+    "ticker",
+    "discord",
+    "eternull"
+  ],
+  "author": "Eternull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EternullCode/Free-Coingecko-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/EternullCode/Free-Coingecko-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "node": "^18.7.0",
+    "node-fetch": "^2.6.7"
+  }
+}

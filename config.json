@@ -1,0 +1,10 @@
+{
+    "coingeckoId": "ethereum",
+
+    "ticker": "ETH: ",
+
+    "customStatus": "",
+
+    "updateInterval": 60000
+
+}
