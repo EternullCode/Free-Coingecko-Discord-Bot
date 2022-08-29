@@ -23,9 +23,9 @@ The bot pulls data from [Coingecko's API](https://www.coingecko.com/en/api) and 
 1. Open your code editor
 2. Open the terminal. In VSC the standard keybind is `` CTRL + ` ``. Alternatively you can click on `Terminal -> New Terminal` in the toolbar
 3. Clone the forked repo in your code editor. To do this follow [this](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) guide
-4. Once you see the repo files in your code editor, type `npm install` and hit enter. This will load the necessary dependencies
+4. Once you see the repo files in your code editor, type `npm install` in your terminal and hit enter. This will load the necessary dependencies
 5. Put your bot token ID in the `.env` file and press `CTRL + S` to save. It should look something like this when complete: `DISCORD_TOKEN_ID=myKeyGoesHere`
-6. Check `config.json` and enter the desired `coingeckoId`. Examples: `ethereum`, `bitcoin`, `usd-coin`
+6. Check `config.json` and enter the desired `APIid` and press `CTRL + S` to save. Examples; `ethereum`, `bitcoin`, `usd-coin` etc
 7. Type `node index.js` in your terminal and hit enter. Your bot should now come online! 🎉
 
 ### Where to find the Coingecko API ID?
